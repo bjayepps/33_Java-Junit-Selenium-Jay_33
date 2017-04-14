@@ -106,7 +106,7 @@ public class TestBase implements SauceOnDemandSessionIdProvider {
         browsers.add(new String[]{"Windows 10", "11.0", "internet explorer", null, null});
         browsers.add(new String[]{"Windows 10", "latest", "internet explorer", null, null});
 
-/**
+
         
 
         browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});             
@@ -127,7 +127,7 @@ public class TestBase implements SauceOnDemandSessionIdProvider {
         browsers.add(new String[]{"OS X 10.11", "latest", "safari", null, null});  
 
 
-*/
+
 
   
 
