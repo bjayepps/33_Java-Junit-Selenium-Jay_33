@@ -123,7 +123,7 @@ public class TestBase implements SauceOnDemandSessionIdProvider {
 
         browsers.add(new String[]{"OS X 10.10", "53.0", "chrome", null, null});
         browsers.add(new String[]{"OS X 10.10", "54.0", "chrome", null, null});
-        browsers.add(new String[]{"OS X 10.10", "55.0", "chrome", null, null});
+        //browsers.add(new String[]{"OS X 10.10", "55.0", "chrome", null, null});
 
         browsers.add(new String[]{"OS X 10.11", "10.0", "safari", null, null}); 
         browsers.add(new String[]{"OS X 10.11", "latest", "safari", null, null});  
