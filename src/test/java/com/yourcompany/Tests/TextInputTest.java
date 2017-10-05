@@ -20,10 +20,12 @@ public class TextInputTest extends TestBase {
      * Runs a simple test verifying if the comment input is functional.
      * @throws InvalidElementStateException
      */
+
+
+
     @Test
     public void verifyCommentInputTest() throws InvalidElementStateException {
         String commentInputText = UUID.randomUUID().toString();
-
         GuineaPigPage page = GuineaPigPage.visitPage(driver);
         page.visitPage();
         page.submitComment(commentInputText);
