@@ -75,12 +75,15 @@ public class TestBase implements SauceOnDemandSessionIdProvider {
      */
 
     public TestBase(String os, String version, String browser, String deviceName, String deviceOrientation) {
+    //public TestBase(String os, String version, String browser, String deviceName, String deviceOrientation, String extendedDebugging) {
+
         super();
         this.os = os;
         this.version = version;
         this.browser = browser;
         this.deviceName = deviceName;
         this.deviceOrientation = deviceOrientation;
+    //    this.extendedDebugging = extendedDebugging;
     }
 
     /**
@@ -111,19 +114,19 @@ public class TestBase implements SauceOnDemandSessionIdProvider {
         browsers.add(new String[]{"Windows 10", "latest", "internet explorer", null, null});
 
         browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});             
-        browsers.add(new String[]{"Windows 8", "latest", "chrome", null, null});             
-        browsers.add(new String[]{"Windows 8.1", "latest", "chrome", null, null});
+        browsers.add(new String[]{"Windows 8", "latest", "chrome", null, null});            
+        browsers.add(new String[]{"Windows 8.1", "latest", "chrome", null, null});  
         browsers.add(new String[]{"Windows 10", "39", "chrome", null, null});  
         browsers.add(new String[]{"Windows 10", "55", "chrome", null, null});  
 
-        browsers.add(new String[]{"Windows 10", "latest-2", "chrome", null, null});
+        browsers.add(new String[]{"Windows 10", "latest-2", "chrome", null, null});  
         browsers.add(new String[]{"Windows 10", "latest-1", "chrome", null, null});  
         browsers.add(new String[]{"Windows 10", "latest", "chrome", null, null});  
         browsers.add(new String[]{"Windows 10", "beta", "chrome", null, null});  
 
-        browsers.add(new String[]{"OS X 10.10", "53.0", "chrome", null, null});
-        browsers.add(new String[]{"OS X 10.10", "54.0", "chrome", null, null});
-        browsers.add(new String[]{"OS X 10.10", "55.0", "chrome", null, null});
+        browsers.add(new String[]{"OS X 10.10", "53.0", "chrome", null, null});  
+        browsers.add(new String[]{"OS X 10.10", "54.0", "chrome", null, null});  
+        browsers.add(new String[]{"OS X 10.10", "55.0", "chrome", null, null});  
 
         browsers.add(new String[]{"OS X 10.11", "10.0", "safari", null, null}); 
         browsers.add(new String[]{"OS X 10.11", "latest", "safari", null, null});  
