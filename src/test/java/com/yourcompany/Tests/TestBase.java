@@ -122,7 +122,7 @@ public class TestBase implements SauceOnDemandSessionIdProvider {
         browsers.add(new String[]{"Windows 10", "latest-2", "chrome", null, null});  
         browsers.add(new String[]{"Windows 10", "latest-1", "chrome", null, null});  
         browsers.add(new String[]{"Windows 10", "latest", "chrome", null, null});  
-        browsers.add(new String[]{"Windows 10", "beta", "chrome", null, null});  
+     //   browsers.add(new String[]{"Windows 10", "beta", "chrome", null, null});  
 
         browsers.add(new String[]{"OS X 10.10", "53.0", "chrome", null, null});  
         browsers.add(new String[]{"OS X 10.10", "54.0", "chrome", null, null});  
@@ -138,7 +138,7 @@ public class TestBase implements SauceOnDemandSessionIdProvider {
 
         return browsers;
     }
-//test  this is a test
+//test  now it is not a test
 
     /**
      * Constructs a new {@link RemoteWebDriver} instance which is configured to use the capabilities defined by the {@link #browser},
