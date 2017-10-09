@@ -156,6 +156,7 @@ public class TestBase implements SauceOnDemandSessionIdProvider {
         capabilities.setCapability("deviceName", deviceName);
         capabilities.setCapability("device-orientation", deviceOrientation);
         capabilities.setCapability(CapabilityType.PLATFORM, os);
+        capabilities.setCapability("extendedDebugging", true);
 
         String methodName = name.getMethodName();
         capabilities.setCapability("name", methodName);
