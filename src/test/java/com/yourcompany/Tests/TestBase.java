@@ -105,40 +105,40 @@ public class TestBase implements SauceOnDemandSessionIdProvider {
         browsers.add(new String[]{"Windows 10", "48.0", "firefox", null, null});
         browsers.add(new String[]{"Windows 10", "49.0", "firefox", null, null});      
         browsers.add(new String[]{"Windows 10", "latest-1", "firefox", null, null});
-        browsers.add(new String[]{"Windows 10", "latest", "firefox", null, null});   
+        browsers.add(new String[]{"Windows 10", "latest", "firefox", null, null});     
       
         browsers.add(new String[]{"Windows 7", "11.0", "internet explorer", null, null});
         browsers.add(new String[]{"Windows 8", "10.0", "internet explorer", null, null});
         browsers.add(new String[]{"Windows 8.1", "11.0", "internet explorer", null, null});
         browsers.add(new String[]{"Windows 10", "11.0", "internet explorer", null, null});
-        browsers.add(new String[]{"Windows 10", "latest", "internet explorer", null, null});
+        browsers.add(new String[]{"Windows 10", "latest", "internet explorer", null, null});   
 
         browsers.add(new String[]{"Windows 7", "latest", "chrome", null, null});             
         browsers.add(new String[]{"Windows 8", "latest", "chrome", null, null});            
         browsers.add(new String[]{"Windows 8.1", "latest", "chrome", null, null});  
         browsers.add(new String[]{"Windows 10", "39", "chrome", null, null});  
-        browsers.add(new String[]{"Windows 10", "55", "chrome", null, null});  
+        browsers.add(new String[]{"Windows 10", "55", "chrome", null, null});       
 
         browsers.add(new String[]{"Windows 10", "latest-2", "chrome", null, null});  
         browsers.add(new String[]{"Windows 10", "latest-1", "chrome", null, null});  
-        browsers.add(new String[]{"Windows 10", "latest", "chrome", null, null});  
-     //   browsers.add(new String[]{"Windows 10", "beta", "chrome", null, null});  
+        browsers.add(new String[]{"Windows 10", "latest", "chrome", null, null});      
+   //     browsers.add(new String[]{"Windows 10", "beta", "chrome", null, null});  
 
         browsers.add(new String[]{"OS X 10.10", "53.0", "chrome", null, null});  
         browsers.add(new String[]{"OS X 10.10", "54.0", "chrome", null, null});  
-        browsers.add(new String[]{"OS X 10.10", "55.0", "chrome", null, null});  
+        browsers.add(new String[]{"OS X 10.10", "55.0", "chrome", null, null});       
 
         browsers.add(new String[]{"OS X 10.11", "10.0", "safari", null, null}); 
-        browsers.add(new String[]{"OS X 10.11", "latest", "safari", null, null});  
+        browsers.add(new String[]{"OS X 10.11", "latest", "safari", null, null});      
 
         browsers.add(new String[]{"OS X 10.11", "10.0", "safari", null, null}); 
-        browsers.add(new String[]{"OS X 10.11", "latest", "safari", null, null}); 
+        browsers.add(new String[]{"OS X 10.11", "latest", "safari", null, null});      
 
         
         // extendedDebugging: True
         return browsers;
     }
-//test  now it is not a test
+//test  
 
     /**
      * Constructs a new {@link RemoteWebDriver} instance which is configured to use the capabilities defined by the {@link #browser},
