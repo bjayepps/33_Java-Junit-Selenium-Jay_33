@@ -135,7 +135,8 @@ public class TestBase implements SauceOnDemandSessionIdProvider {
         browsers.add(new String[]{"OS X 10.11", "latest", "safari", null, null});      
 
         
-        // extendedDebugging: True;
+        
+
         return browsers;
     }
 //test  
